@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+
+}
+.list_section {
+    position: fixed;
+    background: #222222;
+    width: 255px;
+    color: #fff;
+}
+.up {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px;
+    font-family: 'Kanit';
+    font-size: 12px;
+    margin-bottom: 3px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+.main-icon_product {
+    WIDTH: 100%;
+    display: flex;
+    padding: 10px 5px;
+
+}
+.down {
+    width: 242px;
+    height: 100vh;
+}
+.il_producted {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 14px 0px;
+    cursor: pointer;
+}
+.a_proname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 17px;
+    font-family: 'Kanit';
+    color: white;
+}
+.product_card {
+    width: 78%;
+}
+.con_pros {
+    display: flex;
+}
+.container_dis_pro {
+    width: 222px;
+    border: 1px solid #0000003d;
+    padding: 24px 0px;
+    margin: 10px;
+}
+.img_des_pro {
+    width: 100%;
+    height: 275px;
+}
+.img_des_pro img{
+    width: 100%;
+}
+.about_buy {
+    display: flex;
+}
+
+.txt_dis_pro h1 {
+    margin: 5px 14px;
+    font-family: fangsong;
+}
+.color_best_pro {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.don_pro {
+    display: flex;
+    align-items: center;
+    padding: 0px 137px 0px 12px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-family: 'Kanit';
+    margin: 0px 0px 2px 4px;
+}
+.don_pro h3 {
+    color: #00000075;
+    text-decoration-line: line-through;
+}
+
+
+.cart a{
+    color: #000;
+}
+.add_product {
+    width: 85%;
+    margin: 68px auto;
+    border: 1px solid;
+}
+.hid{
+    display: none;
+}
+.img_producted_add {
+    width: 248px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+.form1,.form2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 25px 0px;
+}
+.btn_pro {
+    text-align: center;
+    margin: 0px 0px 21px 0px;
+}
+input[type="text"] {
+    padding: 5px 43px;
+    border-radius: 6px;
+    border: 1px solid #4b4472;
+    text-align: center;
+
+}
+input[type="submit"] {
+    padding: 3px 100px;
+    border: navajowhite;
+    background: #0072ff;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.8s;
+}
+input[type="submit"]:hover{
+       background: #5ae719; 
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+input[type="number"] {
+        padding: 5px 43px;
+    border-radius: 6px;
+    border: 1px solid #4b4472;
+    text-align: center;
+} 
+.tit_{
+    font-size: 13px;
+    padding: 5px 0px;
+}
+a.Add_to1 {
+    text-decoration: none;
+    background: #222222;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 7px;
+}
+a.Add_to2 {
+   text-decoration: none;
+   background: #22222269;
+   color: #fff;
+    padding: 1px 6px;
+    border-radius: 7px;
+}
+
+.bed_card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+
+}
+.Antiques_card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.show3{
+    display: flex;
+}
+.Chandelier_card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.show4{
+    display: flex;
+}
+.food_card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.show5.food_card{
+    display: flex;
+}
+.show2.bed_card{
+    display: flex; 
+}
+.con2 {
+    width: 100%;
+    margin: 6px 0px 0px 221px;
+}
+
+.sorce {
+    background: #faf8ff;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 32px 0px;
+    text-align: end;
+    font-size: 27px;
+}
+.logpro {
+    width: 34px;
+    margin: 0px 20px 0px 13px;
+    text-align: center;
+}
+i.fa-solid.fa-user {
+    font-size: 32px;
+    color: #fff;
+}
+.list {
+    margin: 12px;
+    font-size: 29px;
+    display: none;
+}
+li.close {
+    text-align: left;
+    padding: 16px;
+    color: #000;
+    font-size: 32px;
+    display: none;
+}
+.a-proCarticonn {
+    color: #192028;
+    padding: 4px 11px;
+    font-size: 24px;
+}
+.titlepro {
+    text-align: center;
+    background: #faf8ff;
+    width: 100%;
+    margin: 0 auto;
+}
+.titlepro h1 {
+    font-size: 50px;
+    font-family: 'Kanit';
+}
+p.sorce2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kanit';
+}
+.a-sorce0 {
+    color: #000000ad;
+    font-weight: 700;
+}
+.a-sorce0:hover {color: #000;}
+.a-sorce1 {
+    color: #000;
+    font-weight: 700;
+}
+.sorce_span{
+    margin: 0 17px;
+}
+.sr{
+    display: none;
+}
+.show_clo.sr{
+        display: block;
+}
+label {
+    display: flex;
+    flex-direction: column-reverse;
+}
+h1.txt_upload {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+.img_upload {
+    width: 129px;
+    margin: 2px auto;
+    cursor: pointer;
+}
+
+@media (max-width: 983px){
+    .down {
+        position: absolute;
+        right: 310px;
+        background: aliceblue;
+        transition:.3s;
+    }
+    .opedown.down {
+        right: 20px;
+        background: #222222;
+    }
+    .con2 {
+        margin: 111px 0px 0px 0px;
+    }
+    .product_card {
+        width: 100%;
+        margin: 0px 0px 0px 0px; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .up {
+        width: 384%;
+        background: #222222;
+    }
+    .list {
+        display: block;
+    }
+    .heed_list {
+        display: none;
+    }
+    li.close {
+        display: block;
+    }
+    .Product.price {
+        width: 248px;
+        text-align: center;
+    }
+    input[type="submit"] {
+        padding: 3px 36px;
+        width: 92%;
+    }
+    .form1, .form2 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .add_product {
+        width: 75%;
+        margin: 137px auto;
+        border: 1px solid;
+    }
+    
+}
+.container_all {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.show_all{
+    display: flex;
+}
+.Bestsellers_card{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.Best.Bestsellers_card{
+    display: flex;
+}
+.Dis_card{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.Dis.Dis_card{
+    display: flex;
+}
+.User_card{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.User.User_card{
+    display: flex;
+}
+
+.btn_Del  {
+    background: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 21px;
+    border-radius: 9px;
+}
+.btn_Edt{
+     background: #0039f3;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 21px;
+    border-radius: 9px;   
+}
+@media (max-width: 983px){
+    .container2_all {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .text_pro_all {
+        width: 100%;
+    }
+    .con_all2 {
+        justify-content: center;}
+
+.con3_ {
+    margin: 0px 16px;
+}
+.con_all3 {
+    margin-top: 21px;
+    margin-bottom: 28px;
+}
+}
+@media (max-width: 500px){
+.con_all2 {
+    align-items: center;
+    flex-direction: column;
+}
+.con3_1 {
+    margin: 10px 0px;
+}
+.con_all3 {
+    flex-direction: column;
+    align-items: center;
+}
+}
+table.table {
+    background: rgb(255, 255, 255);
+    width: 101%;
+}
+.dark_th {
+    border-bottom: 1px solid;
+    background: #222222;
+}
+.No_th{
+    background: #ffffff; 
+ color: #000;
+}
+table.table {
+    width: 100%;
+    color: #fff;
+}
+th.No_th {
+    width: 18px;
+}
+th .Delet{
+    background: red;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 11px;
+}
+th .Edit{
+    background: rgb(69 116 245);
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 11px;
+}
+th div {
+    margin: 16px;
+}
+form.formDelete {
+    margin: 309px 269px;
+}
+.box {
+    background: #222222a8;
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    margin: 0px 256px;
+}
+
+input.btnDelete {
+    padding: 3px 100px;
+    border: navajowhite;
+    background: #ff0000;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.8s;
+    margin-bottom: 10px;
+}
+a.btnNoDelete {
+    padding: 3px 100px;
+    border: navajowhite;
+    background: #b400ff;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.8s;
+    text-decoration: none;
+}
+
+a.btnNoDelete:hover{
+    color: rgb(0, 0, 0);
+    background: #ff9900;
+}
+th.TxtDelet {
+    color: #fff;
+    font-size: 27px;
+    padding: 23px 0px;
+}
+@media (max-width: 983px){
+    .box {
+        width: 100%;
+        margin: 0;
+    }
+    input.btnDelete {
+        padding: 4px 0px;
+        width: 220px;
+        text-align: center;
+    }
+    .btnDiv {
+        width: 100%;
+    }
+    table.TableDelete {
+        width: 100%;
+        text-align: center;
+    }
+    form.formDelete {
+        margin: 309px 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
+p.style09 {
+    font-size: 22px;
+    background: #f00;
+    color: #fff;
+    text-align: center;
+}
